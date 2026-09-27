@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School ERP – All Modules | ByeManual</title>
+  <meta name="description"
+    content="ByeManual's School ERP covers 45+ modules — from admissions to transport. Custom-built for your school, delivered as a monthly subscription." />
+  <meta property="og:title" content="School ERP Modules – ByeManual" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="apple-touch-icon" href="favicon-64.png" />
+  <meta name="theme-color" content="#080c14" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="erp.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bm-navbar fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand bm-brand" href="index.html">
+        <span class="brand-icon">⚡</span>
+        <span class="brand-text">Bye<span class="brand-accent">Manual</span></span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link bm-nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link bm-nav-link" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link bm-nav-link active" href="school-erp.html">School ERP</a></li>
+          <li class="nav-item"><a class="nav-link bm-nav-link" href="college-erp.html">College ERP</a></li>
+          <li class="nav-item"><a class="nav-link bm-nav-link" href="index.html#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn bm-btn-primary" href="index.html#contact" id="nav-cta">Get a Free Demo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="erp-hero">
+    <div class="erp-hero-bg"></div>
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <div class="section-label">School ERP</div>
+          <h1 class="erp-hero-title">
+            Everything your organization needs,<br /><span class="text-gradient">built exactly for you</span>
+          </h1>
+          <p class="erp-hero-subtitle">
+            45+ modules. Pick what you need. We build it custom — no off-the-shelf compromises.
+            Delivered as a monthly subscription so it grows with your school.
+          </p>
+          <div class="erp-hero-badges">
+            <span class="erp-badge"><i class="bi bi-check-circle-fill me-1"></i>100% Custom Built</span>
+            <span class="erp-badge"><i class="bi bi-check-circle-fill me-1"></i>No Lock-in</span>
+            <span class="erp-badge"><i class="bi bi-check-circle-fill me-1"></i>Mobile + Web</span>
+            <span class="erp-badge"><i class="bi bi-check-circle-fill me-1"></i>Ongoing Support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="erp-modules-section">
+    <div class="container">
+      <div class="erp-filter-bar" id="filterBar">
+        <button class="erp-filter-btn active" data-filter="all">All Modules</button>
+        <button class="erp-filter-btn" data-filter="student">Student</button>
+        <button class="erp-filter-btn" data-filter="academic">Academic</button>
+        <button class="erp-filter-btn" data-filter="finance">Finance</button>
+        <button class="erp-filter-btn" data-filter="communication">Communication</button>
+        <button class="erp-filter-btn" data-filter="hr">Staff & HR</button>
+        <button class="erp-filter-btn" data-filter="infrastructure">Infrastructure</button>
+        <button class="erp-filter-btn" data-filter="admin">Administration</button>
+      </div>
+
+      <div class="erp-module-grid" id="moduleGrid">
+
+        <!-- STUDENT -->
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-person-plus-fill"></i></div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Online Admission Management</h4>
+          <p class="erp-module-desc">Secure OTP-based admission portal. Eliminates paperwork and manages the entire
+            intake process digitally.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Online application form</li>
+            <li><i class="bi bi-check2"></i> OTP verification</li>
+            <li><i class="bi bi-check2"></i> Document upload</li>
+            <li><i class="bi bi-check2"></i> Admission status tracking</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-calendar-check-fill"></i></div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Attendance Management</h4>
+          <p class="erp-module-desc">Real-time daily attendance tracking for students and staff. Automated parent
+            notifications on absence.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Class-wise attendance</li>
+            <li><i class="bi bi-check2"></i> SMS/WhatsApp alerts to parents</li>
+            <li><i class="bi bi-check2"></i> Monthly reports</li>
+            <li><i class="bi bi-check2"></i> Biometric integration ready</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-journal-person"></i></div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Student Dossier</h4>
+          <p class="erp-module-desc">Comprehensive student profiles — academic history, behavioral records, medical
+            info, and family details in one place.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Complete student profile</li>
+            <li><i class="bi bi-check2"></i> Academic history</li>
+            <li><i class="bi bi-check2"></i> Medical records</li>
+            <li><i class="bi bi-check2"></i> Family &amp; guardian info</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-credit-card-2-front-fill"></i></div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Student ID Card Generation</h4>
+          <p class="erp-module-desc">Auto-generate branded student ID cards with QR codes. Print-ready PDF export in
+            bulk.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Custom school branding</li>
+            <li><i class="bi bi-check2"></i> QR code enabled</li>
+            <li><i class="bi bi-check2"></i> Bulk PDF export</li>
+            <li><i class="bi bi-check2"></i> Digital ID option</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-file-earmark-arrow-right-fill"></i>
+          </div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Transfer Certificate Generation</h4>
+          <p class="erp-module-desc">Generate official TCs instantly with auto-filled student data. No manual typing, no
+            errors.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Auto-filled from records</li>
+            <li><i class="bi bi-check2"></i> Customizable TC format</li>
+            <li><i class="bi bi-check2"></i> Digital signature support</li>
+            <li><i class="bi bi-check2"></i> TC issue register</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-shield-check"></i></div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Discipline Management</h4>
+          <p class="erp-module-desc">Track and manage student discipline incidents, issue notices, and maintain a
+            productive school atmosphere.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Incident logging</li>
+            <li><i class="bi bi-check2"></i> Parent notifications</li>
+            <li><i class="bi bi-check2"></i> Disciplinary action records</li>
+            <li><i class="bi bi-check2"></i> Trend reports</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="student">
+          <div class="erp-module-icon" style="--icon-color:#4cc9f0"><i class="bi bi-emoji-neutral-fill"></i></div>
+          <div class="erp-module-cat-tag student-tag">Student</div>
+          <h4 class="erp-module-name">Student Behavior Management</h4>
+          <p class="erp-module-desc">Record, monitor, and manage student behavior incidents with intervention tracking
+            and parent communication.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Behavior incident records</li>
+            <li><i class="bi bi-check2"></i> Counselor notes</li>
+            <li><i class="bi bi-check2"></i> Parent alerts</li>
+            <li><i class="bi bi-check2"></i> Improvement tracking</li>
+          </ul>
+        </div>
+
+        <!-- ACADEMIC -->
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-clock-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Timetable Management</h4>
+          <p class="erp-module-desc">Generate and manage class timetables digitally. Auto-detect clashes and instantly
+            notify teachers.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Drag-and-drop builder</li>
+            <li><i class="bi bi-check2"></i> Clash detection</li>
+            <li><i class="bi bi-check2"></i> Substitute teacher assignment</li>
+            <li><i class="bi bi-check2"></i> Student &amp; teacher view</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-pencil-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Homework &amp; Assignment</h4>
+          <p class="erp-module-desc">Teachers post assignments online; students submit digitally. Track completion and
+            send reminders automatically.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Online submission</li>
+            <li><i class="bi bi-check2"></i> Due date reminders</li>
+            <li><i class="bi bi-check2"></i> File attachments</li>
+            <li><i class="bi bi-check2"></i> Completion tracking</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-file-earmark-text-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Examination Management</h4>
+          <p class="erp-module-desc">End-to-end exam management — schedule, seating, marks entry, and auto-generated
+            report cards with grades.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Exam scheduling</li>
+            <li><i class="bi bi-check2"></i> Seating arrangement</li>
+            <li><i class="bi bi-check2"></i> Marks entry &amp; grading</li>
+            <li><i class="bi bi-check2"></i> Auto report card generation</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-graph-up-arrow"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Result Analysis</h4>
+          <p class="erp-module-desc">Graphical analysis of exam results — class-wise, subject-wise, and student-wise
+            performance trends.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Subject-wise analysis</li>
+            <li><i class="bi bi-check2"></i> Pass/fail statistics</li>
+            <li><i class="bi bi-check2"></i> Topper lists</li>
+            <li><i class="bi bi-check2"></i> Comparative reports</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#4cc9f0"><i class="bi bi-camera-video-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Daily Lecture Topics</h4>
+          <p class="erp-module-desc">Teachers log daily topics covered in class. Parents and students get a daily
+            learning summary automatically.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Topic log per class</li>
+            <li><i class="bi bi-check2"></i> Syllabus coverage tracker</li>
+            <li><i class="bi bi-check2"></i> Parent visibility</li>
+            <li><i class="bi bi-check2"></i> Teaching pace analytics</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-laptop-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">E-Learning / Virtual Classroom</h4>
+          <p class="erp-module-desc">Conduct real-time online classes, share study materials, and manage a complete
+            digital learning ecosystem.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Live class integration</li>
+            <li><i class="bi bi-check2"></i> Video lecture library</li>
+            <li><i class="bi bi-check2"></i> Study material upload</li>
+            <li><i class="bi bi-check2"></i> Student progress tracking</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-mortarboard-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Academic Management</h4>
+          <p class="erp-module-desc">Manage courses, subjects, class sections, and academic calendar from one unified
+            dashboard.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Course &amp; subject setup</li>
+            <li><i class="bi bi-check2"></i> Class &amp; section management</li>
+            <li><i class="bi bi-check2"></i> Syllabus management</li>
+            <li><i class="bi bi-check2"></i> Academic calendar</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-patch-question-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Online Exam / Quiz Management</h4>
+          <p class="erp-module-desc">Create and administer online tests with auto-grading. Multiple question types and
+            randomized question banks.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> MCQ, descriptive, fill-in-blank</li>
+            <li><i class="bi bi-check2"></i> Auto-grading</li>
+            <li><i class="bi bi-check2"></i> Randomized question banks</li>
+            <li><i class="bi bi-check2"></i> Instant result display</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-bar-chart-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">U-DISE Reports</h4>
+          <p class="erp-module-desc">Auto-generate government-mandated U-DISE data reports directly from your school
+            database.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Auto data compilation</li>
+            <li><i class="bi bi-check2"></i> Government format export</li>
+            <li><i class="bi bi-check2"></i> Accuracy validation</li>
+            <li><i class="bi bi-check2"></i> Historical records</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="academic">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-trophy-fill"></i></div>
+          <div class="erp-module-cat-tag academic-tag">Academic</div>
+          <h4 class="erp-module-name">Co-curricular Activities</h4>
+          <p class="erp-module-desc">Manage sports, arts, clubs, and extracurricular programs. Track student
+            participation and achievements.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Activity enrollment</li>
+            <li><i class="bi bi-check2"></i> Coach/mentor assignment</li>
+            <li><i class="bi bi-check2"></i> Participation records</li>
+            <li><i class="bi bi-check2"></i> Achievement tracking</li>
+          </ul>
+        </div>
+
+        <!-- FINANCE -->
+        <div class="erp-module-card" data-category="finance">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-currency-rupee"></i></div>
+          <div class="erp-module-cat-tag finance-tag">Finance</div>
+          <h4 class="erp-module-name">Fee Management</h4>
+          <p class="erp-module-desc">Complete fee collection system — define fee heads, generate bills, track payments,
+            and send reminders automatically.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Custom fee structures</li>
+            <li><i class="bi bi-check2"></i> Installment plans</li>
+            <li><i class="bi bi-check2"></i> Auto payment reminders</li>
+            <li><i class="bi bi-check2"></i> Collection reports</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="finance">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-receipt"></i></div>
+          <div class="erp-module-cat-tag finance-tag">Finance</div>
+          <h4 class="erp-module-name">Fees &amp; Fine Management</h4>
+          <p class="erp-module-desc">Manage late fees, library fines, and custom penalty rules. Auto-calculate and add
+            to student accounts.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Custom fine rules</li>
+            <li><i class="bi bi-check2"></i> Auto-calculation</li>
+            <li><i class="bi bi-check2"></i> Fine waiver management</li>
+            <li><i class="bi bi-check2"></i> Collection history</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="finance">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-credit-card-fill"></i></div>
+          <div class="erp-module-cat-tag finance-tag">Finance</div>
+          <h4 class="erp-module-name">Online Payment Gateway</h4>
+          <p class="erp-module-desc">Accept fees online via UPI, net banking, credit/debit cards. Auto-reconciliation
+            and instant payment confirmation.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> UPI, card, net banking</li>
+            <li><i class="bi bi-check2"></i> Auto reconciliation</li>
+            <li><i class="bi bi-check2"></i> Digital receipts</li>
+            <li><i class="bi bi-check2"></i> Payment history</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="finance">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-calculator-fill"></i></div>
+          <div class="erp-module-cat-tag finance-tag">Finance</div>
+          <h4 class="erp-module-name">Accounting &amp; Expense</h4>
+          <p class="erp-module-desc">Track school income and expenses, manage vendor payments, and generate audit-ready
+            financial statements.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Income &amp; expense tracking</li>
+            <li><i class="bi bi-check2"></i> Vendor management</li>
+            <li><i class="bi bi-check2"></i> Budget vs actual</li>
+            <li><i class="bi bi-check2"></i> Financial statements</li>
+          </ul>
+        </div>
+
+        <!-- COMMUNICATION -->
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-bell-fill"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">Alert &amp; Notification System</h4>
+          <p class="erp-module-desc">Send targeted SMS, WhatsApp, and push notifications to parents, students, and staff
+            instantly from the dashboard.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> SMS &amp; WhatsApp alerts</li>
+            <li><i class="bi bi-check2"></i> Push notifications</li>
+            <li><i class="bi bi-check2"></i> Group targeting</li>
+            <li><i class="bi bi-check2"></i> Delivery status tracking</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-chat-dots-fill"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">Parent–Teacher Interaction</h4>
+          <p class="erp-module-desc">Real-time messaging between parents and teachers. Parents see daily performance
+            updates without calling the school.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> In-app messaging</li>
+            <li><i class="bi bi-check2"></i> Daily progress updates</li>
+            <li><i class="bi bi-check2"></i> Meeting scheduling</li>
+            <li><i class="bi bi-check2"></i> Read receipts</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-chat-square-text-fill"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">Online PTM Feedback</h4>
+          <p class="erp-module-desc">Collect and manage Parent-Teacher Meeting feedback digitally. Schedule PTMs and
+            record outcomes online.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Online PTM scheduling</li>
+            <li><i class="bi bi-check2"></i> Feedback forms</li>
+            <li><i class="bi bi-check2"></i> Meeting notes</li>
+            <li><i class="bi bi-check2"></i> Outcome tracking</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#4cc9f0"><i class="bi bi-star-fill"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">Online Teacher Feedback</h4>
+          <p class="erp-module-desc">Anonymous student feedback on teacher performance. Helps management identify
+            training needs.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Anonymous feedback</li>
+            <li><i class="bi bi-check2"></i> Customizable rating criteria</li>
+            <li><i class="bi bi-check2"></i> Performance dashboards</li>
+            <li><i class="bi bi-check2"></i> Trend analysis</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-newspaper"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">News &amp; Events</h4>
+          <p class="erp-module-desc">Publish school news, upcoming events, and announcements directly to the parent and
+            student app.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> News publishing</li>
+            <li><i class="bi bi-check2"></i> Event announcements</li>
+            <li><i class="bi bi-check2"></i> Push notification on publish</li>
+            <li><i class="bi bi-check2"></i> Archive management</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-images"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">Photo Gallery &amp; Videos</h4>
+          <p class="erp-module-desc">Share school event photos and videos with parents securely through the app.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Event albums</li>
+            <li><i class="bi bi-check2"></i> Video uploads</li>
+            <li><i class="bi bi-check2"></i> Access control</li>
+            <li><i class="bi bi-check2"></i> Parent download option</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="communication">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-megaphone-fill"></i></div>
+          <div class="erp-module-cat-tag communication-tag">Communication</div>
+          <h4 class="erp-module-name">Circular &amp; Notice Board</h4>
+          <p class="erp-module-desc">Send digital circulars to specific classes or the whole school. Track who has read
+            the notice.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Targeted distribution</li>
+            <li><i class="bi bi-check2"></i> Read receipts</li>
+            <li><i class="bi bi-check2"></i> Acknowledgement option</li>
+            <li><i class="bi bi-check2"></i> Archive</li>
+          </ul>
+        </div>
+
+        <!-- STAFF & HR -->
+        <div class="erp-module-card" data-category="hr">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-people-fill"></i></div>
+          <div class="erp-module-cat-tag hr-tag">Staff &amp; HR</div>
+          <h4 class="erp-module-name">Employee Management</h4>
+          <p class="erp-module-desc">Complete employee records — personal info, qualifications, joining date, salary,
+            and performance history.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Employee profiles</li>
+            <li><i class="bi bi-check2"></i> Document management</li>
+            <li><i class="bi bi-check2"></i> Salary records</li>
+            <li><i class="bi bi-check2"></i> Performance history</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="hr">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-person-badge-fill"></i></div>
+          <div class="erp-module-cat-tag hr-tag">Staff &amp; HR</div>
+          <h4 class="erp-module-name">HR Management</h4>
+          <p class="erp-module-desc">Manage recruitment, onboarding, payroll, and HR processes. Generate payslips and
+            track increments.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Payroll processing</li>
+            <li><i class="bi bi-check2"></i> Payslip generation</li>
+            <li><i class="bi bi-check2"></i> Increment tracking</li>
+            <li><i class="bi bi-check2"></i> Recruitment pipeline</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="hr">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-calendar-x-fill"></i></div>
+          <div class="erp-module-cat-tag hr-tag">Staff &amp; HR</div>
+          <h4 class="erp-module-name">Leave Management</h4>
+          <p class="erp-module-desc">Digital leave application and approval workflow for teachers and staff. Track leave
+            balances and generate reports.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Online leave application</li>
+            <li><i class="bi bi-check2"></i> Approval workflow</li>
+            <li><i class="bi bi-check2"></i> Leave balance tracking</li>
+            <li><i class="bi bi-check2"></i> Attendance integration</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="hr">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-kanban-fill"></i></div>
+          <div class="erp-module-cat-tag hr-tag">Staff &amp; HR</div>
+          <h4 class="erp-module-name">Work Allocation Management</h4>
+          <p class="erp-module-desc">Assign tasks digitally across teachers and non-teaching staff. Track progress and
+            completion in real time.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Task assignment</li>
+            <li><i class="bi bi-check2"></i> Priority setting</li>
+            <li><i class="bi bi-check2"></i> Progress tracking</li>
+            <li><i class="bi bi-check2"></i> Completion reports</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="hr">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-clipboard2-check-fill"></i></div>
+          <div class="erp-module-cat-tag hr-tag">Staff &amp; HR</div>
+          <h4 class="erp-module-name">Duty / Activity Allocation</h4>
+          <p class="erp-module-desc">Assign supervision duties, exam invigilation, and event responsibilities to staff
+            digitally.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Duty roster management</li>
+            <li><i class="bi bi-check2"></i> Invigilation assignment</li>
+            <li><i class="bi bi-check2"></i> Real-time monitoring</li>
+            <li><i class="bi bi-check2"></i> Duty history</li>
+          </ul>
+        </div>
+
+        <!-- INFRASTRUCTURE -->
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-bus-front-fill"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Transport Management</h4>
+          <p class="erp-module-desc">Manage routes, buses, and driver info. Parents track the school bus live. Automated
+            stop-wise attendance.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Live GPS tracking</li>
+            <li><i class="bi bi-check2"></i> Route management</li>
+            <li><i class="bi bi-check2"></i> Student boarding alerts</li>
+            <li><i class="bi bi-check2"></i> Transport fee management</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-book-fill"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Library Management</h4>
+          <p class="erp-module-desc">Digital catalogue, book issue/return tracking, fine management, and overdue alerts
+            for the school library.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Book catalogue</li>
+            <li><i class="bi bi-check2"></i> Issue &amp; return tracking</li>
+            <li><i class="bi bi-check2"></i> Overdue alerts</li>
+            <li><i class="bi bi-check2"></i> Library fine management</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-boxes"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Inventory Management</h4>
+          <p class="erp-module-desc">Track school assets, stationery, lab equipment, and furniture. Get low-stock alerts
+            and manage procurement.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Asset tracking</li>
+            <li><i class="bi bi-check2"></i> Low-stock alerts</li>
+            <li><i class="bi bi-check2"></i> Purchase orders</li>
+            <li><i class="bi bi-check2"></i> Vendor management</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-heart-pulse-fill"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Healthcare / Medical Room</h4>
+          <p class="erp-module-desc">Maintain student medical records, log medical room visits, track medications, and
+            alert parents for health issues.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Student health records</li>
+            <li><i class="bi bi-check2"></i> Medical room visit log</li>
+            <li><i class="bi bi-check2"></i> Parent health alerts</li>
+            <li><i class="bi bi-check2"></i> Allergy &amp; condition tracking</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-person-check-fill"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Visitor Management</h4>
+          <p class="erp-module-desc">Log all school visitors digitally — who they're visiting, entry/exit time, purpose.
+            Auto visitor passes.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Digital visitor log</li>
+            <li><i class="bi bi-check2"></i> Pre-approved visitor list</li>
+            <li><i class="bi bi-check2"></i> Auto visitor pass</li>
+            <li><i class="bi bi-check2"></i> Security dashboard</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-fingerprint"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Biometric Integration</h4>
+          <p class="erp-module-desc">Connect biometric devices for student and staff attendance. Auto-sync with
+            attendance module and payroll.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Fingerprint device integration</li>
+            <li><i class="bi bi-check2"></i> Face recognition support</li>
+            <li><i class="bi bi-check2"></i> Auto attendance sync</li>
+            <li><i class="bi bi-check2"></i> Payroll integration</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#4cc9f0"><i class="bi bi-lock-fill"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Access Management</h4>
+          <p class="erp-module-desc">Role-based access control — define what each user (admin, teacher, parent, student)
+            can see and do.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Role-based access</li>
+            <li><i class="bi bi-check2"></i> Custom permission sets</li>
+            <li><i class="bi bi-check2"></i> Activity audit logs</li>
+            <li><i class="bi bi-check2"></i> Secure login with OTP</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="infrastructure">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-gear-fill"></i></div>
+          <div class="erp-module-cat-tag infrastructure-tag">Infrastructure</div>
+          <h4 class="erp-module-name">Scheduled Services</h4>
+          <p class="erp-module-desc">Schedule and track maintenance, cleaning, and transport services. Auto-reminders
+            and completion confirmations.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Service scheduling</li>
+            <li><i class="bi bi-check2"></i> Vendor assignment</li>
+            <li><i class="bi bi-check2"></i> Completion tracking</li>
+            <li><i class="bi bi-check2"></i> Cost management</li>
+          </ul>
+        </div>
+
+        <!-- ADMINISTRATION -->
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-calendar-event-fill"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Event Management</h4>
+          <p class="erp-module-desc">Plan, organize, and track all school events — Annual Day, Sports Day, Exhibitions.
+            Manage budgets and guest lists.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Event planning board</li>
+            <li><i class="bi bi-check2"></i> Budget tracking</li>
+            <li><i class="bi bi-check2"></i> Invitee management</li>
+            <li><i class="bi bi-check2"></i> Task assignments</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#48cae4"><i class="bi bi-calendar2-week-fill"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Holidays &amp; School Planner</h4>
+          <p class="erp-module-desc">Define and communicate the annual academic calendar — holidays, exam dates, events
+            — to the entire school community.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Annual academic calendar</li>
+            <li><i class="bi bi-check2"></i> Holiday declarations</li>
+            <li><i class="bi bi-check2"></i> Exam schedule planner</li>
+            <li><i class="bi bi-check2"></i> Auto parent notifications</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#f77f00"><i class="bi bi-award-fill"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Certificate Management</h4>
+          <p class="erp-module-desc">Issue and track all types of certificates — bonafide, character, merit.
+            Auto-filled, digitally signed, and logged.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Multiple certificate types</li>
+            <li><i class="bi bi-check2"></i> Auto fill from records</li>
+            <li><i class="bi bi-check2"></i> Digital signature</li>
+            <li><i class="bi bi-check2"></i> Issue register</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#7209b7"><i class="bi bi-pie-chart-fill"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Analytics &amp; Reports Dashboard</h4>
+          <p class="erp-module-desc">Live graphical dashboards — enrollment trends, fee collection, attendance rates,
+            academic performance — at a glance.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Real-time dashboards</li>
+            <li><i class="bi bi-check2"></i> Custom report builder</li>
+            <li><i class="bi bi-check2"></i> PDF &amp; Excel export</li>
+            <li><i class="bi bi-check2"></i> Historical comparisons</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#f72585"><i class="bi bi-stars"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Achievement &amp; Talent</h4>
+          <p class="erp-module-desc">Recognize and showcase student achievements in academics, sports, and arts. Build a
+            living achievement portfolio.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Achievement records</li>
+            <li><i class="bi bi-check2"></i> Merit awards</li>
+            <li><i class="bi bi-check2"></i> Student portfolio</li>
+            <li><i class="bi bi-check2"></i> Parent app display</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#4cc9f0"><i class="bi bi-person-add"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Enquiry Management</h4>
+          <p class="erp-module-desc">Capture and manage all admission enquiries. Assign follow-ups, track conversion,
+            and never miss a lead.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Enquiry capture form</li>
+            <li><i class="bi bi-check2"></i> Follow-up reminders</li>
+            <li><i class="bi bi-check2"></i> Conversion tracking</li>
+            <li><i class="bi bi-check2"></i> Source analytics</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#06d6a0"><i class="bi bi-printer-fill"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Document Printing &amp; Management</h4>
+          <p class="erp-module-desc">Generate and print hall tickets, admit cards, marksheets, and official letters —
+            auto-filled from the system.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Hall ticket generation</li>
+            <li><i class="bi bi-check2"></i> Admit cards</li>
+            <li><i class="bi bi-check2"></i> Marksheet printing</li>
+            <li><i class="bi bi-check2"></i> Custom templates</li>
+          </ul>
+        </div>
+
+        <div class="erp-module-card" data-category="admin">
+          <div class="erp-module-icon" style="--icon-color:#6c63ff"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+          <div class="erp-module-cat-tag admin-tag">Administration</div>
+          <h4 class="erp-module-name">Service Requests</h4>
+          <p class="erp-module-desc">Parents and staff raise service requests (TC, bonafide, maintenance) digitally.
+            Track status without phone calls.</p>
+          <ul class="erp-module-features">
+            <li><i class="bi bi-check2"></i> Online request submission</li>
+            <li><i class="bi bi-check2"></i> Status tracking</li>
+            <li><i class="bi bi-check2"></i> Completion notification</li>
+            <li><i class="bi bi-check2"></i> Request history</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bm-cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-glow"></div>
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <h2 class="cta-title">Want any of these for your school?</h2>
+            <p class="cta-subtitle">Pick the modules you need. We'll build them custom — fitted to your school's exact
+              processes.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="https://wa.me/919363717887?text=Hi%2C%20I%20want%20to%20discuss%20School%20ERP%20modules."
+              class="btn bm-btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-whatsapp me-2"></i>Discuss on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bm-footer">
+    <div class="container">
+      <div class="row g-4 footer-top">
+        <div class="col-lg-4">
+          <a class="navbar-brand bm-brand mb-3 d-inline-flex" href="index.html">
+            <span class="brand-icon">⚡</span>
+            <span class="brand-text">Bye<span class="brand-accent">Manual</span></span>
+          </a>
+          <p class="footer-desc">Custom-built School &amp; College ERP software delivered as a monthly subscription.</p>
+          <div class="footer-socials mt-3">
+            <a href="https://wa.me/919363717887" class="social-link" target="_blank" rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h6 class="footer-heading">Products</h6>
+          <ul class="footer-links">
+            <li><a href="school-erp.html">School ERP</a></li>
+            <li><a href="college-erp.html">College ERP</a></li>
+            <li><a href="index.html#services">Custom Apps</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="footer-heading">Company</h6>
+          <ul class="footer-links">
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#how-it-works">Process</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="footer-heading">Contact</h6>
+          <ul class="footer-links">
+            <li><a href="mailto:contact@byemanual.com">contact@byemanual.com</a></li>
+            <li><a href="https://wa.me/919363717887" target="_blank">+91 93637 17887</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 ByeManual. All rights reserved.</p>
+        <p class="footer-copy">Custom software for smarter institutions.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Chat Popup Widget -->
+  <div class="wa-widget" id="waWidget">
+    <div class="wa-popup" id="waPopup">
+      <button class="wa-popup-close" id="waPopupClose" aria-label="Close chat"><i class="bi bi-x-lg"></i></button>
+      <div class="wa-popup-header">
+        <div class="wa-popup-avatar">
+          <span class="wa-avatar-icon">⚡</span>
+          <span class="wa-online-dot"></span>
+        </div>
+        <div class="wa-popup-meta">
+          <strong>ByeManual Team</strong>
+          <span><i class="bi bi-circle-fill me-1" style="font-size:0.5rem;color:#25d366"></i>Online — replies in
+            minutes</span>
+        </div>
+      </div>
+      <div class="wa-popup-body">
+        <div class="wa-popup-bubble">
+          👋 You're just <strong>one step away</strong> from eliminating the manual work slowing your institution down.
+          Let's figure it out together!
+        </div>
+        <div class="wa-popup-bubble wa-popup-bubble--delay">
+          Drop a message — no commitment, just a conversation. 🚀
+        </div>
+      </div>
+      <a href="https://wa.me/919363717887?text=Hi%20ByeManual%21%20I%20want%20to%20discuss%20School%20ERP%20for%20my%20institution."
+        class="wa-popup-cta" target="_blank" rel="noopener noreferrer" id="wa-popup-cta-btn">
+        <i class="bi bi-whatsapp"></i> Start Conversation <i class="bi bi-arrow-right ms-1"></i>
+      </a>
+    </div>
+    <a href="https://wa.me/919363717887?text=Hi%2C%20I%20visited%20byemanual.com%20and%20would%20like%20to%20know%20more."
+      class="wa-float-btn" id="wa-float" target="_blank" rel="noopener noreferrer"
+      aria-label="Chat with us on WhatsApp">
+      <i class="bi bi-whatsapp"></i>
+      <span class="wa-tooltip">Chat on WhatsApp</span>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="erp.js"></script>
+</body>
+
+</html>
